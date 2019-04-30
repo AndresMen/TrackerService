@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">Conductor</string>
+    <string name="notification_text">Tracking, tap to cancel</string>
+    <string name="firebase_path" translatable="false">autos</string>
+    <string name="firebase_path_users" translatable="false">users</string>
+    <string name="google_maps_web_services_key">AIzaSyBNFI_xyLZApRGTDWb2FAAylrvge0CFBrE</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyBATwiamWi2oV3sl2tSAIe9HJv10LOZ0I4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="caption_new_user">¿NUEVO USUARIO? ¡REGÍSTRATE AHORA!</string>
+    <string name="caption_signin">REGISTRARSE</string>
+    <string name="caption_signup">REGÍSTRATE</string>
+    <string name="caption_update_profile">UPDATE PROFILE</string>
+    <string name="caption_create_your_account">Crea tu cuenta</string>
+    <string name="caption_oops_forgot_password">Oops, ¡olvidé mi contraseña!</string>
+    <string name="caption_forgot_password">FORGOT PASSWORD</string>
+    <string name="caption_retrive_your_password">RETRIVE YOUR PASSWORD</string>
+    <string name="caption_edit_prf">EDIT PROFILE</string>
+    <string name="caption_edit_your_account">Edit your account</string>
+
+    <!--Register Screen-->
+    <string name="caption_personal_details">Detalles personales</string>
+    <string name="caption_vehicle_details">Detalles del auto</string>
+    <string name="caption_legal_details">Detalles legales</string>
+
+    <!--Personal Details-->
+    <string name="hint_name">Nombre</string>
+    <string name="hint_username">Nombre/usuario</string>
+    <string name="hint_mobile">Móvil</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirmar Password</string>
+    <string name="hint_date_of_birth">Fecha de Nacimiento</string>
+    <string name="hint_gender">Género</string>
+    <string name="hint_address">Dirección</string>
+
+
+    <!--Vehicle Details-->
+    <string name="hint_carmake">Marca de auto</string>
+    <string name="hint_carmodel">Modelo de auto</string>
+    <string name="hint_cartype">Tipo de auto</string>
+    <string name="hint_carnumber">Número de auto</string>
+    <string name="hint_seatingcapacity">Capacidad</string>
+
+    <!--Legal Details-->
+    <string name="hint_driving_license">Licencia de conducir</string>
+    <string name="hint_license_exp_date">Vencimiento/licencia</string>
+    <string name="hint_license_plate">Placa</string>
+    <string name="hint_insuarance">Seguro</string>
+
+
+    <!--All Trip-->
+    <string name="all_trip">All Trip</string>
+    <string name="Change_password_screen">Change Password</string>
+    <string name="truck_type_trip">TRUCK TYPE : </string>
+    <string name="booking_id">BOOKING ID</string>
+    <string name="pending">PENDING BOOKING</string>
+    <string name="accepted">ACCEPTED BOOKING</string>
+    <string name="user_cancell">CANCEL BOOKING</string>
+    <string name="user_cancelled">CANCELED BOOKING</string>
+    <string name="driver_unavailable">DRIVER UNAVAILABLE</string>
+    <string name="completed">COMPLETED BOOKING</string>
+    <string name="driver_cancelled">DRIVER CANCELLED</string>
+    <string name="call">CALL</string>
+    <string name="on_trip">ON TRIP</string>
+    <string name="driver_arrived">ARRIVED</string>
+
+    <string name="i_hve_arrv">I HAVE ARRIVED</string>
+    <string name="begin_trip">BEGIN TRIP</string>
+    <string name="start_journey">START JOURNEY</string>
+    <string name="journey_complet">COMPLETE</string>
+    <string name="finished">FINISHED</string>
+
+    <string name="drop_location">Drop Location</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="fin_distance">Distance</string>
+
+    <!--Change Password String-->
+    <string name="crrent_password">Current Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+
+    <!--Dialog Text-->
+    <string name="dialog_choose">SELECT</string>
+
+
+    <!--Register Message-->
+    <string name="please_select_image">Please select profile image.</string>
+    <string name="enter_name">Please enter a valid name</string>
+    <string name="minimum_name_charactor">Name should be minimum 4 characters.</string>
+    <string name="maximum_name_charactor">Name should be maximum 30 characters.</string>
+    <string name="please_enter_username">Please enter a valid username</string>
+    <string name="minimum_user_charactor">Username should be minimum 4 characters.</string>
+    <string name="maximum_user_charactor">Username should be maximum 30 characters.</string>
+    <string name="username_error">Username should be characters,digits and underscore(A-Za-z0-9).</string>
+    <string name="hint_password_msg">Please enter both letters and numbers</string>
+    <string name="please_enter_password">Please enter password.</string>
+    <string name="please_enter_confirm_password">Please enter confirm password.</string>
+    <string name="password_length">Password length must be between 6-32 characters</string>
+    <string name="large_password">Password should be maximum 32 characters.</string>
+    <string name="password_does_not_match">Passwords do not match</string>
+    <string name="enter_dob">Please select Date of Birth.</string>
+    <string name="dob_error">Your age should be minimum 18 years in order for you to use this app.</string>
+    <string name="select_gender">Please select gender.</string>
+    <string name="please_enter_email">Please provide a valid email id</string>
+    <string name="please_enter_valid_email">Please enter valid email.</string>
+    <string name="please_enter_mobileno">Please enter a valid mobile number</string>
+    <string name="min_mobile_number">Mobile number should be minimum 10 digits</string>
+    <string name="please_enter_address">Please enter address.</string>
+    <string name="please_enter_address_number">Address should be characters and digit(A-Za-z0-9).</string>
+    <string name="please_enter_amount">Please provide an amount.</string>
+
+
+    <string name="enter_carmake">Please enter vehicle make.</string>
+    <string name="please_enter_carmake_number">Vehicle Make should be characters and digit(A-Za-z0-9).</string>
+    <string name="enter_carmodel">Please enter vehicle model.</string>
+
+    <string name="enter_cartype">Please select vehicle type.</string>
+    <string name="enter_carnumber">Please enter vehicle number.</string>
+    <string name="carnumber_error">Vehicle number should be characters,digits and underscore(A-Za-z0-9).</string>
+
+    <string name="enter_seating_capacity">Please enter loading capacity.</string>
+    <string name="seating_capacity_error">Seating capacity must be digits only(0-9).</string>
+    <string name="seating_capacity_length">Maximum loading capacity can be 200 ton.</string>
+
+
+    <string name="enter_driving_license">Please enter driving license.</string>
+    <string name="driving_license_length">Driving license length should be more than 16 characters.</string>
+    <string name="enter_license_expiry_date">Please select license expiry date.</string>
+    <string name="enter_license_plate">Please enter license plate.</string>
+    <string name="license_plate_error">License plate should be characters and digits(A-Za-z0-9).</string>
+    <string name="enter_insuarance">Please enter insuarance.</string>
+    <string name="insuarance_error">Insuarance should be characters and digits(A-Za-z0-9).</string>
+    <string name="please_enter_current_password">Please provide current password.</string>
+    <string name="please_current_password">Not valid current password.</string>
+    <string name="please_enter_new_password">Please provide new password.</string>
+    <string name="password_new_length">New password length must be between 8-32 characters</string>
+    <string name="password_new_confirm">New Password and confirm password doesn’t match.</string>
+
+
+    <!--Menu Items-->
+    <string name="menu_all_requests">All Requests</string>
+    <string name="menu_change_password">Change Password</string>
+    <string name="dialog_caption_signout">SIGNOUT</string>
+    <string name="dialog_logout_msg">Are you sure want to logout?</string>
+
+    <string name="dialog_caption_logout">LOGOUT</string>
+
+    <!--Trip Detail String-->
+    <string name="review">REVIEW</string>
+    <string name="trip_details">Trip Details</string>
+    <string name="track_truck">Track Truck</string>
+    <string name="pickup_point">PICKUP POINT</string>
+    <string name="booking_date">BOOKING DATE</string>
+    <string name="drop_point">DROP POINT</string>
+    <string name="truck_type">TRUCK TYPE</string>
+    <string name="distance">DISTANCE</string>
+    <string name="apr_trv_time">APPROX TIME</string>
+    <string name="payment_type">PAYMENT TYPE</string>
+    <string name="total_price">TOTAL AMOUNTS</string>
+
+    <!--Alert Dialog String-->
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="are_you_sure_delete_trip">Are you sure you want to reject this trip?</string>
+    <string name="delete_trip">REJECT TRIP</string>
+    <string name="exit_app">Are you sure you want to exit this trip?</string>
+
+    <string name="arrived_message">Are you sure you to continue with Begin Trip?</string>
+    <string name="begin_message">Are you sure ? \n Do you want to continue Begin Trip.</string>
+
+    <string name="all_trips">All Trips</string>
+    <string name="time_remaining">TIME REMAINING</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="retry">Retry</string>
+    <string name="sucess">Success</string>
+    <string name="next">NEXT</string>
+    <string name="read_and_write">Read and Write Storage Permission required for this app</string>
+    <string name="on_duty">On Duty</string>
+    <string name="off_duty">Off Duty</string>
+    <string name="update_profile">Successfully updated your profile details</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="gps_disable">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="no_record_found">No Record Found</string>
+    <string name="cash">Cash</string>
+    <string name="km"> km</string>
+    <string name="approx_price">Approx Price</string>
+    <string name="final_price">Final Price</string>
+    <string name="enter_bill_amount">Enter the bill amount</string>
+    <string name="reason_for_ride">Reason for ride</string>
+
+    <string name="a">A</string>
+    <string name="d">D</string>
+    <string name="c">C</string>
+    <string name="p">P</string>
+    <string name="all">All</string>
+    <string name="pending_booking">Pending Booking</string>
+    <string name="accepted_booking">Accepted Booking</string>
+    <string name="driver_reject">Driver Reject</string>
+    <string name="completed_booking">Completed Booking</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="sign_out">Sign out</string>
+    <string name="back">BACK</string>
+    <string name="detail">DETAILS</string>
+    <string name="chang_password">C H A N G E&#160;&#160;P A S S W O R D</string>
+    <string name="forgot_password">F O R G O T&#160;&#160;P A S S W O R D</string>
+    <string name="payment_detail">PAYMENT DETAILS</string>
+    <string name="vehicle_detail">VEHICLE DETAILS</string>
+    <string name="to">TO</string>
+    <string name="accept">ACCEPT</string>
+    <string name="decline">DECLINE</string>
+    <string name="secound">SECOUND</string>
+
+    <string name="enter_correct_login_detail">Please enter correct login details</string>
+    <string name="email_username_mobile_exit">Email address,username and mobile number already exist.</string>
+    <string name="email_username_exit">Email address,username already in exist</string>
+    <string name="email_mobile_exit">Email address,mobile number already in exist</string>
+    <string name="mobile_username_exit">Mobile number,username already in exist</string>
+    <string name="email_exit">Email id already in exist</string>
+    <string name="user_exit">Username already in exist</string>
+    <string name="mobile_exit">Mobile number already in exist</string>
+    <string name="somthing_worng">Something went wrong</string>
+    <string name="data_not_found">Data Not Founds</string>
+    <string name="vehicle_numbet_exits">Vehicle number already exists</string>
+    <string name="license_numbet_exits">License number already exists</string>
+    <string name="dublicate_booking">We have received your booking recently and found this could be a duplicate of previous one. please try after some time.</string>
+    <string name="invalid_birth_date">Invalid Birth Date.</string>
+    <string name="inactive_user">Your account has been temporarily locked. Please contact your admin for further.</string>
+    <string name="correct_login_detail">Please enter your correct emial/user name and password.</string>
+    <string name="recheck_your_login_detail">Please recheck your login details and try again.Don\'t have an Naqilcom account? Register for one instantly.</string>
+    <string name="password_change_sucess">Password Change Successfully.</string>
+
+    <declare-styleable name="ZigzagView">
+        <attr name="zigzagHeight" format="dimension" />
+        <attr name="zigzagElevation" format="dimension" />
+        <attr name="zigzagBackgroundColor" format="color" />
+        <attr name="zigzagPaddingContent" format="dimension" />
+        <attr name="zigzagPadding" format="dimension" />
+        <attr name="zigzagPaddingLeft" format="dimension" />
+        <attr name="zigzagPaddingRight" format="dimension" />
+        <attr name="zigzagPaddingBottom" format="dimension" />
+        <attr name="zigzagPaddingTop" format="dimension" />
+        <attr name="zigzagSides">
+            <flag name="top" value="1" />
+            <flag name="bottom" value="2" />
+        </attr>
+        <attr name="zigzagShadowAlpha" format="float" />
+    </declare-styleable>
+</resources>

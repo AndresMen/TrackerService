@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:tint="@color/black"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:src="@drawable/lock"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+    <com.example.mendez.trackerservice.customfonts.MyTextView_Roboto_Regular
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="10dp"/>
+    <com.example.mendez.trackerservice.customfonts.MyTextView_Roboto_Regular
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="opciones de inicio "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:paddingBottom="20dp"
+        android:gravity="left"
+        android:paddingLeft="30dp"/>
+
+
+
+    <com.example.mendez.trackerservice.customfonts.MyTextView_Roboto_Regular
+
+
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="para crear una cuenta o iniciar sesión usa tu número de teléfono"
+        android:textColor="@color/sub_txt"
+        android:textSize="15sp"
+        android:paddingBottom="20dp"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:id="@+id/tex"/>
+
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_10"
+        >
+
+        <LinearLayout
+            android:id="@+id/llema"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:textColorHint="@color/colorTexto">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edt_reg_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:imeOptions="actionNext"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorTexto"
+                    android:textSize="@dimen/font_size_20sp"
+                    android:focusableInTouchMode="true"
+                    />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:background="@color/colorTexto"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:id="@+id/llpass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:textColorHint="@color/colorTexto"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/yellow">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edt_reg_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:imeOptions="actionNext"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorTexto"
+                    android:textSize="@dimen/font_size_20sp"
+                    android:focusableInTouchMode="true"
+                    />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vpss"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:background="@color/colorTexto"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:id="@+id/llcpass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:textColorHint="@color/colorTexto"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/yellow">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edt_reg_confirmpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_confirm_password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:imeOptions="actionNext"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorTexto"
+                    android:textSize="@dimen/font_size_20sp"
+                    android:focusableInTouchMode="true"
+                    />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vcpss"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:background="@color/colorTexto"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <com.example.mendez.trackerservice.customfonts.MyTextView_Roboto_Regular
+            android:id="@+id/tv_mod"
+            android:background="@drawable/signup_ract"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50"
+            android:text="Guardar cambios"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingLeft="33dp"
+            android:paddingRight="33dp"
+            android:textSize="18sp"
+            android:layout_marginLeft="@dimen/width_30"
+            android:layout_marginRight="@dimen/width_30"
+            android:paddingBottom="@dimen/margin_3"
+            android:layout_marginTop="@dimen/margin_20"
+            android:foreground="?attr/selectableItemBackground"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

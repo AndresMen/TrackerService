@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/liberty7">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/lock" />
+
+        <com.example.mendez.trackerservice.customfonts.MyTextView_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="TAXI"
+            android:textColor="#ffffff"
+            android:textSize="28sp" />
+
+
+        <com.example.mendez.trackerservice.customfonts.MyTextView_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Preparate para una  \nnueva experiencia \nen viajes"
+            android:textAlignment="center"
+            android:textColor="#e7ecef"
+            android:textSize="25sp" />
+
+
+            <com.example.mendez.trackerservice.customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/mediatransperent_ract"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="bottom"
+                android:paddingBottom="15dp"
+                android:paddingLeft="58dp"
+                android:paddingRight="58dp"
+                android:paddingTop="13dp"
+                android:text="Iniciar sesión"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <com.example.mendez.trackerservice.customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/signup_ract"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="bottom"
+                android:paddingBottom="15dp"
+                android:paddingLeft="58dp"
+                android:paddingRight="58dp"
+                android:paddingTop="13dp"
+                android:text="Registrarme"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

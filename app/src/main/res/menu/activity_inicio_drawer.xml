@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/in"
+            android:icon="@drawable/inicio_icon"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/mapa_icon"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/via"
+            android:icon="@drawable/trabajo_icon"
+            android:title="Viajes" />
+        <item
+            android:id="@+id/mes"
+            android:icon="@drawable/mensaje_icon"
+            android:title="Mensajes" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/salir_icon"
+            android:title="Logout" />
+    </group>
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:tint="@color/colorAccent"
+            android:layout_width="@dimen/width_30"
+            android:layout_height="@dimen/width_30"
+            android:src="@drawable/email_icon"
+            android:layout_margin="@dimen/margin_15"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margin_15">
+            <TextView
+                android:id="@+id/tvt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nuevo mensaje"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/tvme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sample"
+                android:textColor="@color/colorTexto"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnversms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver"
+            android:backgroundTint="@color/colorEnviar"
+            android:textColor="@color/white"
+            android:layout_weight="2"
+            android:foreground="?attr/selectableItemBackground"/>
+        <Button
+            android:id="@+id/btncersms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cerrar"
+            android:backgroundTint="@color/colorRecibir"
+            android:textColor="@color/white"
+            android:layout_weight="2"
+            android:foreground="?attr/selectableItemBackground"/>
+    </LinearLayout>
+
+
+</LinearLayout>

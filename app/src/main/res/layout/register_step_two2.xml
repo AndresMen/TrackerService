@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/sv_personal_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin_15">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_45"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                >
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorTexto">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edt_reg_carmake"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_carmake"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:lines="1"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColorHint="@color/colorTexto"
+                        android:textSize="@dimen/font_size_20sp"
+                        android:focusableInTouchMode="true"
+                        android:textColor="@color/colorTexto"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1"
+                android:background="@color/colorTexto"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_45"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                >
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorTexto">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edt_reg_camodel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_carmodel"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:lines="1"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColorHint="@color/colorTexto"
+                        android:textSize="@dimen/font_size_20sp"
+                        android:focusableInTouchMode="true"
+                        android:textColor="@color/colorTexto"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1"
+                android:background="@color/colorTexto"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_45"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                >
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorTexto">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edt_reg_cartype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_cartype"
+                        android:maxLines="1"
+                        android:lines="1"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/colorTexto"
+                        android:textSize="@dimen/font_size_20sp"
+                        android:focusable="false"
+                        />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1"
+                android:background="@color/colorTexto"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_45"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                >
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorTexto">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edt_reg_carnumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_carnumber"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:lines="1"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColorHint="@color/colorTexto"
+                        android:textSize="@dimen/font_size_20sp"
+                        android:focusableInTouchMode="true"
+                        android:textColor="@color/colorTexto"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1"
+                android:background="@color/colorTexto"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_45"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                >
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorTexto">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edt_reg_seating_capacity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_seatingcapacity"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:lines="1"
+                        android:imeOptions="actionDone"
+                        android:background="@android:color/transparent"
+                        android:textColorHint="@color/colorTexto"
+                        android:textSize="@dimen/font_size_20sp"
+                        android:focusableInTouchMode="true"
+                        android:textColor="@color/colorTexto"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1"
+                android:background="@color/colorTexto"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"/>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="@dimen/width_25"
+                android:layout_marginBottom="@dimen/width_25">
+                <ImageView
+                    android:id="@+id/iv_auto_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/agregar"
+                    android:contentDescription="Imagen auto" />
+                <TextView
+                    android:id="@+id/tv_imau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insertar imagen "
+
+                    android:textSize="@dimen/font_size_20sp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

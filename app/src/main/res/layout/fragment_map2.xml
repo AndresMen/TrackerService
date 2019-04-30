@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.map"
+    android:orientation="vertical">
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/opcines_id"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/colorTexto"
+            android:text="PASAJERO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8">
+
+                <TextView
+                    android:id="@+id/cliiv"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="DENNIS" />
+            </LinearLayout>
+            <View android:background="@color/colorTexto"
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="20.0dip" />
+            <LinearLayout
+                android:id="@+id/notclie"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="?attr/selectableItemBackground">
+                <ImageView
+                    android:tint="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_width="40.0dip"
+                    android:layout_height="22.0dip"
+                    android:src="@drawable/mensaje_icon" />
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="MENSAJE" />
+            </LinearLayout>
+
+            <View android:background="@color/colorTexto"
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="20.0dip" />
+            <LinearLayout
+                android:id="@+id/llamar_id"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="?attr/selectableItemBackground">
+                <ImageView
+                    android:tint="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_width="40.0dip"
+                    android:layout_height="22.0dip"
+                    android:src="@drawable/telefono" />
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="LLAMAR" />
+            </LinearLayout>
+
+            <View android:background="@color/colorTexto"
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="20.0dip" />
+            <LinearLayout
+                android:id="@+id/navegar_id"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="?attr/selectableItemBackground">
+                <ImageView
+                    android:tint="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_width="40.0dip"
+                    android:layout_height="22.0dip"
+                    android:src="@drawable/direccion" />
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="NAVEGAR" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lliv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/btniv"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/fondo_iniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingLeft="33dp"
+            android:paddingRight="33dp"
+            android:paddingTop="10dp"
+            android:text="INICIAR VIAJE"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
